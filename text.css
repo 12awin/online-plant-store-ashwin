@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=1024x1024&w=is&k=20&c=7vTdlKUTmfYvaSlw4r1IdAb3AvXbZlE_L-hqpUVbXYA=");
+    color: rgb(247, 240, 240);
+    padding: 50px 0;
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+    background-repeat: no-repeat;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* .products{
+   
+} */
+
+.product {
+    background-image: url("https://media.istockphoto.com/id/2160523138/photo/person-is-holding-a-small-plant-in-their-hand.jpg?s=1024x1024&w=is&k=20&c=V-chwNntD7-hkoTWNZ2aoCN9pYu5CRneK8DOpzxsmL4=");
+    margin-bottom: 60px;
+    height:auto;
+    width:auto;
+    background-size:100%;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.order-form {
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.img{
+    background-image: url("https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=1024x1024&w=is&k=20&c=7vTdlKUTmfYvaSlw4r1IdAb3AvXbZlE_L-hqpUVbXYA=");
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+    
+}
+.img1{
+    color: aquamarine;
+    background-image: url("https://media.istockphoto.com/id/1156208490/photo/planting-a-young-tree.jpg?s=1024x1024&w=is&k=20&c=nndlhFyS-xpCzINiitFxJvGdlZP1hEp7B6gSf3VmxWw=");
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image:url("https://img.freepik.com/premium-psd/oil-prices-go-up-3d-icon-model-cartoon-style-render-illustration_516938-1995.jpg?w=740") ;
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+
+}
+.ll{
+    background-image:url("https://img.freepik.com/free-photo/mobile-payments-mobile-scanning-payments-face-face-payments_1359-1148.jpg?t=st=1730532622~exp=1730536222~hmac=966b06e633615c780ba7a1ed576bb8c2b00d45eef12c505345cc42df0c89f73f&w=900") ;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.ex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    flex-wrap:wrap-reverse;
+    text-align: center;
+}
+.pro{
+    background-image: url("https://img.freepik.com/premium-photo/autumn-season-hoh-rainforest-olympic-national-park-wa-usa-beautiful-unusual-natural-landscapes_328046-11559.jpg?w=1800");    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
